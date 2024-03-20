@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BBC - news</title>
+   <style>
+            #topbar {
+                width: 1000px;
+                margin: 0 auto;
+                height: 40px;
+                
+            }
+
+            body{
+                margin: 0;
+                padding: 0;
+            }
+
+        #logo_bbc_news {
+                margin-top: 8px;
+                width: 100px;
+                float: left;
+                margin-right: 10px;
+        }
+        
+        .topbar-section {
+            float: left;
+            border-left: 1px grey solid;
+            height: 100%;
+        }
+        
+        #sign_ic {
+            width: 25px;
+            margin: 11px 15px;
+            float: left;
+
+        }
+        
+        #Sign_in_text {
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 14px;
+            padding-right: 13px;
+         }
+
+         .topbar-menu {
+            font-size: 90%;
+            font-weight: bold;
+            padding: 13px 15px 0 15px;
+            height: 27px;
+
+
+         }
+
+         #menu_bar_container {
+            background: red;
+            width: 100%;
+            height: 70px;
+         }
+
+          #menu_bar {
+                width: 1000px;
+                margin: 0 auto;
+            
+        }
+
+        h1{
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 40px;
+            font-weight: normal ;
+            padding-top: 10px;
+            float: left;
+
+        }
+
+        #local_news a {
+       
+            color: white;
+            text-decoration: none;
+            font-size: 31px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            top: 10px;
+            
+        }
+
+        #local_news a:hover {
+            text-decoration: underline;
+
+        }
+      
+
+        #local_news {
+            border: 1px rgb(254, 251, 251) solid;
+            float: right;
+            width: 250px;
+            height: 55px;
+            padding: 5px 5px 0 10px;
+            margin: 5px 10px 0 0;
+
+        }
+
+
+        #menu_bar_2_container {
+            background-color: rgb(179, 15, 15);
+            width: 100%;
+        
+        }
+
+        #menu_bar_2{
+            
+            width: 1000px;
+            height: 30px;
+            margin: 0 auto;
+            
+        }
+        #menu_bar_2 a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-right: 2px solid white;
+            padding: 0 10px;
+            top: 5px;
+            position: relative;
+       
+
+        }
+        #menu_bar_2 a:hover{
+            text-decoration: underline;
+        }
+
+        #page-container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-top: 40px;
+            font-size: 20px;
+            border-bottom: 2px solid red;
+            width: 100px
+        }
+
+        h3 a {
+            color:black;
+            font-size: 30px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        h3 a:hover {
+            color: blue;
+        }
+        #text1 {
+            color: gray;
+            width: 220px;
+        }
+
+        #text1 img {
+            height: 15px;
+            position: relative;
+            top: 3px;
+
+        }
+
+        #articl_container {
+            float: left;
+            width: 590px;
+            height: 280px;
+            border-right: 1px solid gray;
+
+        }
+
+        #Asda_foto {
+            width: 300px;
+            margin-left: 250px;
+            margin-top: -200px;
+        }
+
+        #watch_listen {
+           width: 350px;
+           margin-left: 620px;
+            
+         
+        }
+
+        h4{
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .site-articl {
+            width: 350px;
+           
+        }
+        .site-articl p img {
+            height: 15px;
+            position: relative;
+            top: 3px;
+        }
+
+        .site-artic2{
+            width: 180px;
+            float: right;
+        }
+
+    
+
+   </style>
+
+</head>
+<body>
+
+    <div id="topbar">
+           <img id="logo_bbc_news" src="logo_bbc_news.png"> 
+
+           <div id="signin-div" class="topbar-section">
+               <img id="sign_ic" src="sign_ic.png" alt="Регистрация"> 
+               <span id="Sign_in_text">Sign in</span>
+           </div>  
+           <div class="topbar-section topbar-menu">
+               News
+           </div> 
+           <div class="topbar-section topbar-menu">
+                Sport
+            </div>
+            <div class="topbar-section topbar-menu">
+                Eart
+            </div>
+            <div class="topbar-section topbar-menu">
+                Reel
+            </div>
+            <div class="topbar-section topbar-menu">
+               Worklife
+            </div>
+            <div class="topbar-section topbar-menu">
+                Travel
+            </div> 
+            <div class="topbar-section topbar-menu">
+                Culture
+            </div> 
+            <div class="topbar-section topbar-menu">
+                . . .
+            </div> 
+            <div class="topbar-section topbar-menu">
+                 <input type="search" placeholder="Search"> <img src="search.png" width="13px">
+
+            </div> 
+    </div>
+
+    <div class="red"></div>
+
+        <div id="menu_bar_container">
+            
+            <div id="menu_bar">
+                <h1>NEWS</h1>
+                <div id="local_news">
+                    <a href="#">Find local news
+                    <img src="geo.png" style="width: 21px;"></a>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div id="menu_bar_2_container">
+
+            <div id="menu_bar_2">
+                <a href="">Home</a>
+                <a href="">UK</a>
+                <a href="">World</a>
+                <a href="">Business</a>
+                <a href="">Politics</a>
+                <a href="">Tech</a>
+                <a href="">Science</a>
+                <a href="">Health</a>
+                <a href="">Education</a>
+                <a href="">Entertainment & Arts</a>
+                <a href="">Video & Audio</a>
+                <a href="">More</a>
+            </div> 
+            
+        </div>
+
+        <div id="page-container">
+
+            <div id="main-articl">
+                <h2>Technology</h2>
+                <div id="articl_container">
+
+                    <h3><a href="#">Asda bug exposed payment details</a></h3>  
+                    <div id="text1">
+
+                        <p>Asda Stores Limited[2] (/ˈæzdə/), trading as Asda and often styled as ASDA, is a British supermarket chain. Its headquarters are in Leeds, England.[9] The company was incorporated as Associated </p>
+                        <p><img src="clock.png" > 20 November| <a href="#">Technology</a> </p>
+                    
+                    </div>
+                    <img id="Asda_foto" src="Asda_House.JPG" alt="House"> 
+
+
+                    <hr style="width:510px;margin-bottom: 25px;">
+                </div>
+                 
+
+            </div>
+
+            <div id="watch_listen"> 
+
+                <h4>Watch/Listen</h4>
+
+
+                <div class="site-articl">
+                    <img src="asda_min.jpg" style="width: 150px;">
+                    <div class="site-artic2"> The Asquith family were butchers based in Knottingley, Wakefield, West Yorkshire. 
+                        <p><img src="clock.png" > 20 November| <a href="#">Technology</a> </p>
+                    </div>
+
+                </div>
+
+               
+               
+    
+    
+            </div>
+          
+        </div>
+
+     
+    
+</body>
+</html>
