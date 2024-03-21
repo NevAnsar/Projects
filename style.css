@@ -1,0 +1,269 @@
+body {
+    background-color: rgb(233, 233, 255);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: black;
+}
+h1 {
+    text-align: center;
+    color:rgb(73, 5, 136);
+    letter-spacing: 0.08rem;
+}
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+.tab {
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(200, 170, 255)
+
+}
+.tab p {
+    padding: 15px;
+}
+
+.tab p:hover {
+    color: rgb(6, 6, 141);
+    cursor: pointer;
+}
+
+.tab p.active {
+    color: rgb(6, 6, 141);
+    position: relative;
+   
+   
+    
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 215px;
+    background-color: rgb(232, 230, 230);
+}
+.active:before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    left: 0%;
+    
+
+}
+.icon {
+    display: flex;
+    margin-top: 20px;
+}
+.icon img {
+    height: 40px;
+    margin: 0 16px;
+}
+
+.content {
+    background-color: rgb(73, 5, 136);
+    height: 32px;
+    width: 140px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px 0px 16px;
+    align-items: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.content span:first-of-type{
+    color: #fff;
+}
+
+.content span:last-of-type{
+    color: rgb(73, 5, 136);
+    background-color: #fff;
+    padding: 4px 16px;
+    border-radius: 13px;
+}
+.month {
+    background-color: rgb(244, 244, 252);
+    text-align: center;
+    padding: 32px;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.month p {
+    color: rgb(15, 15, 16);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0;
+
+}
+.month .price {
+    color:rgb(73, 5, 136);
+    font-size: 54px;
+    margin: 0;
+}
+.discription {
+    line-height: 32px;
+    margin: 16px 55px 32px 80px;
+    
+
+}
+
+.slider .bar {
+    width: 80%;
+    height: 15px;
+    background-color: rgb(244, 244, 252);
+    border: 3px solid rgb(165, 165, 177);
+    border-radius: 20px;
+
+}
+.slider {
+    width: 100%;
+    position: relative;
+    margin-left: 180px;
+    
+
+}
+.slider .progress {
+    width: 23%;
+    height: 18px;
+    background: linear-gradient(
+    90deg,
+    rgba(2,0,36,1)0%,
+    rgba(53,10,74,1)31%,
+    rgba(83,49,156,1)100%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.slider .point {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(54, 22, 130);
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    left: 200px;
+    border: 2px solid white;
+    transition: 0.15s transform ease;
+}
+.point:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.scale{
+    width: 100%;
+    padding-top: 15px;
+}
+.scale ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    color: gray;
+    font-weight: bold;
+
+}
+
+.card {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    margin-left: 16%;
+    
+
+    
+}
+.card hr {
+    width: 30%;
+    border: 1.5px solid rgb(215, 209, 209);
+}
+.block {
+    background-color: rgb(244, 244, 252); 
+    border-radius: 13px;
+    margin: 17px;
+    box-shadow: 0 6px 11px 0 gray;
+    padding: 16px 32px;
+    text-align: center;
+    font-weight: bolder;
+    color:  rgb(54, 22, 130);
+    transition: 0.15s transform ease;
+}
+
+.block:hover {
+    transform: translateY(-8px);
+}
+.fix1 {
+    font-size: 42px;
+    color: black;
+   
+
+}
+
+.top-section {
+    padding: 12px;
+}
+
+.top-section p {
+    margin: 4px 0;
+
+}
+
+.card button {
+    border: none;
+    color:#fff;
+    background-color:rgb(54, 22, 130);
+    padding: 18px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.15s transform ease;
+}
+.card button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.hat {
+    background: linear-gradient(
+        90deg,
+        rgba(2,0,36,1)0%,
+        rgba(53,10,74,1)31%,
+        rgba(83,49,156,1)100%);
+        color: white;
+        width: 124%;
+        margin-left:-33px;
+        height: 25px;
+        margin-top: -25px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+}
+
