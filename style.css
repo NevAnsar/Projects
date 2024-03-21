@@ -1,0 +1,147 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 200;
+    letter-spacing: -1.5px;
+
+}
+
+h2 {
+    font-size: 50px;
+    letter-spacing: -0.5px;
+    
+}
+h3 {
+    font-size: 38px;
+    letter-spacing: 0;
+    font-weight:500;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+    font-weight:500;
+}
+h5 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-weight:500;
+}
+h6 {
+    font-size: 20px;
+    letter-spacing: 0.75px;
+}
+
+.content h3{
+    text-transform: capitalize;
+
+}
+
+
+
+
+.info{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info span{
+    color: rgb(174, 116, 7);
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px;
+    
+
+}
+.headline {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin: 32px 0 32px 32px;
+}
+.headline span {
+    color: rgb(174, 116, 7);  
+}
+
+.quote {
+    font-style: italic;
+    font-size: 14px;
+    border-left: 2px solid orangered;
+    padding-left: 16px;
+    margin: 32px 0 32px 32px;
+}
+.quote cite {
+    display: block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.header1{
+    width: 100%;
+    color: white;
+    background-color: rgb(152, 65, 233);
+    padding: 50px;
+   
+}
+
+.header {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+}
+.header p {
+    border-bottom: 2px solid white;
+    padding-bottom: 35px;
+}
+
+code {
+    color: orangered;
+
+}
+
+footer {
+    background-color: rgb(152, 65, 233); 
+}
+
+footer ul {
+    list-style: none;
+    margin:  0 auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 16px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+    
+}
