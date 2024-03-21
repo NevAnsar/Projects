@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- Начало контейнера с классом "container" -->
+<div class="container">
+    <!-- Заголовок страницы "Tip Calculator" -->
+    <h1>Tip Calculator</h1>
+    <!-- Некоторый текст в абзаце -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <!-- Поле для ввода счета с меткой "Bill amount:" -->
+    <label for="bill">Bill amount:</label>
+    <input type="number" id="bill">
+    <br>
+    
+    <!-- Поле для ввода процента чаевых с меткой "Tip percentage:" -->
+    <label for="tip">Tip percentage:</label>
+    <input type="number" id="tip">
+    
+    <!-- Кнопка "Calculate" для запуска расчета чаевых -->
+    <button id="calculate">Calculate</button>
+    <br>
+    
+    <!-- Метка для отображения итоговой суммы (total) -->
+    <label for="total">Total:</label>
+    <!-- Спан для отображения итоговой суммы (total) -->
+    <span id="total"></span>
+ </div>
+ <!-- Конец контейнера -->
+ 
+ <!-- Подключение внешнего файла JavaScript "index.js" -->
+ <script src="index.js"></script>
+ 
+</body>
+</html>
