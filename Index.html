@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключаем шрифт с Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <!-- Заголовок страницы с именем -->
+ <h1
+ style="text-align:center; color:aliceblue; font-size:xx-large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+ Ansar</h1>
+<!-- Контейнер для основного содержимого -->
+<div class="container">
+ <!-- Блок с игрой "Угадай число" -->
+ <div id="game">
+   <!-- Заголовок с описанием задания -->
+   <h3>I am thinking of a number between 1-100.<br />Can you guess it?</h3>
+   <!-- Обертка для поля ввода и кнопки -->
+   <div class="input-wrapper">
+     <!-- Поле ввода для предполагаемого числа -->
+     <input type="number" placeholder="00" id="guess" />
+     <!-- Кнопка для проверки предполагаемого числа -->
+     <button id="check-btn">Guess</button>
+   </div>
+   <!-- Параграф с количеством попыток -->
+   <p id="no-of-guesses">No. Of Guesses: 0</p>
+   <!-- Параграф со списком угаданных чисел -->
+   <p id="guessed-nums">Guessed Numbers are: None</p>
+ </div>
+ <!-- Кнопка для перезапуска игры -->
+ <button id="restart">Restart</button>
+ <!-- Результаты игры -->
+ <div class="result">
+   <!-- Подсказка для игрока -->
+   <div id="hint"></div>
+ </div>
+</div>  
+
+
+<script src="script.js">
+
+</script>
+</body>
+</html>

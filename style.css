@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgba(77, 135, 105, 0.171);
+
+}
+
+.container {
+    width: min(90%, 31.25em);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 4em 2em;
+    border-radius: 0.5em;
+  
+   }
+
+
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: Monsoret, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 2em;
+    color: #303030;
+}
+
+.input-wrapper {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1em;
+    margin: 3em auto 1.5em auto;
+
+}
+
+input[type="number"]{
+   width: 100%;
+   padding: 1em;
+   font-size: 1.2em;
+   text-align: center;
+   border: 2px solid red;
+   border-radius: 0.3em;
+   outline: none;
+   appearance: text-field;
+   -moz-appearance: textfield;
+}
+
+button {
+    font-size: 1em;
+    background-color: rgb(146, 146, 197);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#restart {
+    margin: 0 auto 0 auto;
+    /* Внешние отступы */
+    padding: 0.8em 1em;
+    /* Внутренние отступы */
+    display: none;
+    /* Скрываем кнопку */
+  }
+  
+  /* Стили для блока с результатом */
+  .result {
+    margin-top: 1em;
+    /* Внешний отступ сверху */
+  }
+  
+  /* Стили для параграфа */
+  p {
+    font-size: 1em;
+    /* Размер шрифта */
+    font-weight: 400;
+    /* Насыщенность шрифта */
+    color: #565b70;
+    /* Цвет текста */
+    word-break: break-all;
+    /* Разрыв слов */
+  }
+  
+  /* Анимация для блоков ошибки и успеха */
+  .error,
+  .success {
+    padding: 0.5em 0;
+    /* Внутренние отступы */
+    border-radius: 0.3em;
+    /* Радиус скругления углов */
+    margin-bottom: 1em;
+    /* Внешний отступ снизу */
+    animation: pop 0.4s forwards;
+    /* Анимация */
+    transform: scale(0);
+    /* Масштабирование */
+  }
+  
+  /* Стили для блока ошибки */
+  .error {
+    background-color: #ffcbcb;
+    /* Цвет фона */
+    color: #ff3e3e;
+    /* Цвет текста */
+  }
+  
+  /* Стили для блока успеха */
+  .success {
+    background-color: #b9ffd5;
+    /* Цвет фона */
+    color: #05c451;
+    /* Цвет текста */
+  }
+  
+  /* Анимация */
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+      /* Начальный масштаб */
+    }
+  
+    100% {
+      transform: scale(1);
+      /* Конечный масштаб */
+    }
+  }
+  
+  
